@@ -12,7 +12,7 @@ bool isSafeStep(int row, int col, int grid[n][n], int value)
         if (grid[i][col] == value)
             return false;
         // 4x4 matrix check
-        if (grid[4 * (row / 4) + i / 4][4 * (col / 4) + i % 4] == value)
+        if (grid[3 * (row / 3) + i / 3][3 * (col / 3) + i % 3] == value)
             return false;
     }
     return true;
