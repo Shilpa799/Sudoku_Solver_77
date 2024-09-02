@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define n 16
+#define n 9
 using namespace std;
 bool isSafeStep(int row, int col, int grid[n][n], int value)
 {
